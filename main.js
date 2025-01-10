@@ -1,8 +1,9 @@
 <script>
+    document.addEventListener('DOMContentLoaded', () => {
     // Selecionar os elementos do chat
     const chatChamada = document.getElementById('chat-call'); // Chat de Chamada
     const chatJa = document.getElementById('chat-now'); // Chat Já
-    const profileContainer = document.querySelector('.profile-container'); // Apenas o avatar
+    const profileContainer = document.querySelector('.profbvreile-container'); // Apenas o avatar
     const chatBubble = document.querySelector('.chat-bubble'); // Balão de mensagem no Chat Call
 const startChatCallSequence = () => {
     // Passo 1: Mostrar avatar e bolha de digitação
