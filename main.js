@@ -1,5 +1,5 @@
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
+ window.addEventListener('load', () => {
     // Selecionar os elementos do chat
     const chatChamada = document.getElementById('chat-call'); // Chat de Chamada
     const chatJa = document.getElementById('chat-now'); // Chat Já
